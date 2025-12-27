@@ -1,0 +1,122 @@
+####################################
+# OS & Editor
+####################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+*.code-workspace
+
+####################################
+# Logs
+####################################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Environment variables
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# Node / Package Managers
+####################################
+node_modules/
+.pnp
+.pnp.js
+
+####################################
+# pnpm
+####################################
+.pnpm-store/
+.pnpm-debug.log*
+
+####################################
+# Build outputs (NestJS)
+####################################
+dist/
+build/
+out/
+coverage/
+
+####################################
+# Turborepo
+####################################
+.turbo/
+
+####################################
+# Next.js / Frontend apps (if any)
+####################################
+.next/
+.vercel/
+storybook-static/
+
+####################################
+# Testing
+####################################
+coverage/
+.nyc_output/
+
+####################################
+# Cache / Temp
+####################################
+.cache/
+.temp/
+.tmp/
+
+####################################
+# Microservices specific
+####################################
+**/dist/
+**/coverage/
+**/node_modules/
+
+####################################
+# Docker
+####################################
+docker-data/
+*.pid
+*.sock
+
+####################################
+# Database
+####################################
+*.sqlite
+*.db
+*.dump
+*.sql
+
+####################################
+# Certificates / Secrets
+####################################
+*.pem
+*.key
+*.crt
+secrets/
+certs/
+
+####################################
+# Monorepo tooling
+####################################
+.nx/
+.lerna-debug.log*
+
+####################################
+# Optional: lockfiles (choose ONE policy)
+####################################
+# If you commit pnpm-lock.yaml (recommended)
+# nothing to ignore
+
+# If you do NOT want lockfiles:
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
