@@ -14,6 +14,9 @@ importers:
 
   apps/api-gateway:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -108,6 +111,9 @@ importers:
 
   apps/auth-service:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -196,6 +202,9 @@ importers:
 
   apps/chat-service:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -284,6 +293,9 @@ importers:
 
   apps/farm-service:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -372,6 +384,9 @@ importers:
 
   apps/notification-service:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -460,6 +475,9 @@ importers:
 
   apps/subscription-service:
     dependencies:
+      '@app/config':
+        specifier: workspace:*
+        version: link:../../libs/config
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.10(reflect-metadata@0.2.2)(rxjs@7.8.2)
